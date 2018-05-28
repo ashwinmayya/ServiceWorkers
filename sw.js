@@ -1,7 +1,7 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
-  '/Volcanoes/List.html'
+  'index.html',
+  'Volcanoes/List.html'
 ];
 
 self.addEventListener('install', function(event) {
